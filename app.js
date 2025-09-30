@@ -1,6 +1,6 @@
 // Google Sheets API configuration
 const SPREADSHEET_ID = '1s4322CgyXo82YuT1BChDJX9lwV0ODcIOcUVpp0ew_5w';
-const API_KEY = 'YOUR_GOOGLE_API_KEY'; // Replace with your actual Google API key
+const API_KEY = 'AIzaSyBjQInF2ui2WA0sCNS7fAD0rtojy0hXMPY'; // Replace with your actual Google API key
 
 // Global variables
 let isConnected = false;
