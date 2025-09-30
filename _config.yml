@@ -1,0 +1,35 @@
+# GitHub Pages configuration
+title: "IoT Dashboard - Sensor & Actuator Monitor"
+description: "Real-time monitoring dashboard for IoT sensors and actuators"
+url: "https://rofiqotomasi.github.io"
+baseurl: "/website"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - .gitignore
+  - .git/
+
+# Include files
+include:
+  - _pages
+  - assets
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
